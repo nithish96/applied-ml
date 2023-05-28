@@ -37,15 +37,16 @@ P.P.S, Looking for guides and interviews on applying ML? 👉[`applyingML`](http
 19. [Weak Supervision](#weak-supervision)
 20. [Generation](#generation)
 21. [Audio](#audio)
-22. [Validation and A/B Testing](#validation-and-ab-testing)
-23. [Model Management](#model-management)
-24. [Efficiency](#efficiency)
-25. [Ethics](#ethics)
-26. [Infra](#infra)
-27. [MLOps Platforms](#mlops-platforms)
-28. [Practices](#practices)
-29. [Team Structure](#team-structure)
-30. [Fails](#fails)
+22. [Privacy-Preserving Machine Learning](#privacy-preserving-machine-learning)
+23. [Validation and A/B Testing](#validation-and-ab-testing)
+24. [Model Management](#model-management)
+25. [Efficiency](#efficiency)
+26. [Ethics](#ethics)
+27. [Infra](#infra)
+28. [MLOps Platforms](#mlops-platforms)
+29. [Practices](#practices)
+30. [Team Structure](#team-structure)
+31. [Fails](#fails)
 
 ## Data Quality
 1. [Reliable and Scalable Data Ingestion at Airbnb](https://www.slideshare.net/HadoopSummit/reliable-and-scalable-data-ingestion-at-airbnb-63920989) `Airbnb` `2016`
@@ -165,7 +166,7 @@ P.P.S, Looking for guides and interviews on applying ML? 👉[`applyingML`](http
 ## Recommendation
 1. [Amazon.com Recommendations: Item-to-Item Collaborative Filtering](https://ieeexplore.ieee.org/document/1167344) ([Paper](https://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf)) `Amazon` `2003`
 2. [Netflix Recommendations: Beyond the 5 stars (Part 1](https://netflixtechblog.com/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429) ([Part 2](https://netflixtechblog.com/netflix-recommendations-beyond-the-5-stars-part-2-d9b96aa399f5)) `Netflix` `2012`
-3. [How Music Recommendation Works — And Doesn’t Work](https://notes.variogr.am/2012/12/11/how-music-recommendation-works-and-doesnt-work/) `Spotify` `2012`
+3. [How Music Recommendation Works — And Doesn’t Work](https://notes.variogram.com/2012/12/11/how-music-recommendation-works-and-doesnt-work/) `Spotify` `2012`
 4. [Learning to Rank Recommendations with the k -Order Statistic Loss](https://dl.acm.org/doi/10.1145/2507157.2507210) ([Paper](https://dl.acm.org/doi/pdf/10.1145/2507157.2507210)) `Google` `2013`
 5. [Recommending Music on Spotify with Deep Learning](https://benanne.github.io/2014/08/05/spotify-cnns.html) `Spotify` `2014`
 6. [Learning a Personalized Homepage](https://netflixtechblog.com/learning-a-personalized-homepage-aa8ec670359a) `Netflix` `2015`
@@ -333,6 +334,7 @@ P.P.S, Looking for guides and interviews on applying ML? 👉[`applyingML`](http
 12. [The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference](https://dl.acm.org/doi/10.1145/3383313.3411477) `Coveo` `2022`
 13. [Embedding-based Retrieval at Scribd](https://tech.scribd.com/blog/2021/embedding-based-retrieval-scribd.html) `Scribd` `2021`
 14. [Multi-objective Hyper-parameter Optimization of Behavioral Song Embeddings](https://arxiv.org/abs/2208.12724) ([Paper](https://arxiv.org/pdf/2208.12724.pdf)) `Apple` `2022`
+15. [Embeddings at Spotify's Scale - How Hard Could It Be?](https://arize.com/resource/embeddings-at-scale-spotify-recsys/) `Spotify` `2023`
 
 ## Natural Language Processing
 1. [Abusive Language Detection in Online User Content](https://dl.acm.org/doi/10.1145/2872427.2883062) ([Paper](http://www.yichang-cs.com/yahoo/WWW16_Abusivedetection.pdf)) `Yahoo` `2016`
@@ -407,6 +409,7 @@ P.P.S, Looking for guides and interviews on applying ML? 👉[`applyingML`](http
 24. [Recognizing People in Photos Through Private On-Device Machine Learning](https://machinelearning.apple.com/research/recognizing-people-photos) `Apple` `2021`
 25. [DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2203.08195.pdf) `Google` `2022`
 26. [Contrastive language and vision learning of general fashion concepts](https://www.nature.com/articles/s41598-022-23052-9) ([Paper](https://www.nature.com/articles/s41598-022-23052-9.pdf))`Coveo` `2022`
+27. [Leveraging Computer Vision for Search Ranking](https://arize.com/resource/bazaarvoice-leveraging-computer-vision-models-for-search-ranking/) `BazaarVoice` `2023`
 
 ## Reinforcement Learning
 1. [Deep Reinforcement Learning for Sponsored Search Real-time Bidding](https://arxiv.org/abs/1803.00259) ([Paper](https://arxiv.org/pdf/1803.00259.pdf)) `Alibaba` `2018`
@@ -497,6 +500,12 @@ P.P.S, Looking for guides and interviews on applying ML? 👉[`applyingML`](http
 ## Audio
 1. [Improving On-Device Speech Recognition with VoiceFilter-Lite](https://ai.googleblog.com/2020/11/improving-on-device-speech-recognition.html) ([Paper](https://arxiv.org/pdf/2009.04323.pdf))`Google` `2020`
 2. [The Machine Learning Behind Hum to Search](https://ai.googleblog.com/2020/11/the-machine-learning-behind-hum-to.html) `Google` `2020`
+
+## Privacy-preserving Machine Learning
+1. [Federated Learning: Collaborative Machine Learning without Centralized Training Data](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) ([Paper](https://arxiv.org/pdf/1602.05629)) `Google` `2017`
+2. [Federated Learning with Formal Differential Privacy Guarantees](https://ai.googleblog.com/2022/02/federated-learning-with-formal.html) ([Paper](https://arxiv.org/pdf/2103.00039)) `Google` `2022`
+3. [MPC-based machine learning: Achieving end-to-end privacy-preserving machine learning](https://research.facebook.com/blog/2022/10/mpc-based-machine-learning-achieving-end-to-end-privacy-preserving-machine-learning/) ([Paper](https://research.facebook.com/file/455681589729383/Private-Computation-Framework-2.0-White-Paper.pdf)) `Facebook` `2022`
+
 
 ## Validation and A/B Testing
 1. [Overlapping Experiment Infrastructure: More, Better, Faster Experimentation](https://research.google/pubs/pub36500/) ([Paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36500.pdf)) `Google` `2010`
